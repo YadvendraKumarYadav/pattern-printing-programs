@@ -10,5 +10,13 @@ public class ABCDsquare{
             System.err.println();
         } 
 
+        for (int i = 1; i <=4; i++) {
+            for (int j = 1; j <=4; j++) {
+                System.err.print((char)(i+96));
+            }
+            System.err.println();
+        }
+
+
     }
 }
